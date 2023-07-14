@@ -1,0 +1,35 @@
+ /* body */
+ body{
+    font-family: Arial;
+    font-size: 10px;
+    background-color: black;
+}
+/* End of body */
+.gray-button {
+    background-color: gray;
+    color: white;
+}
+.orange-button{
+    background-color: orange;
+    color: white;
+}
+.calculator-button {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* calculation-results */
+.calculation-results{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.clear-button {
+    font-size: 15px;
+}
+
