@@ -5,6 +5,15 @@
     background-color: black;
 }
 /* End of body */
+
+.container-calculator {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Adjust the height as needed */
+}
+
 .gray-button {
     background-color: gray;
     color: white;
@@ -14,12 +23,13 @@
     color: white;
 }
 .calculator-button {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     border-radius: 60px;
     border: none;
     margin-right: 5px;
     cursor: pointer;
+    margin: 3px;
 }
 
 /* calculation-results */
